@@ -324,13 +324,14 @@
 
 </div>
 
-<div class="footer-mail-div">
+<form class="footer-mail-div">
 <label for="soc-mail">Підпишіться на розсилку</label>
-<input type="email" class="footer-mail-input" name="soc-mail" id="soc-mail" placeholder="E-mail
+<div class="mail-form">
+  <input type="email" class="footer-mail-input" name="soc-mail" id="soc-mail" placeholder="E-mail
 ">
 <button type="button" class="footer-mail-button">Підписатися <svg class="footer-mail-svg" width="24px" height="24px"><use href="./images/icons.svg#icon-icon-send"></use></svg>
-</button>
-</div>
+</button></div>
+</form>
 
 
 
@@ -371,15 +372,19 @@
 
 
             
-            <div class="form-field">
+            <div class="form-field commnet-margin">
             <label for="comment" class="from-label">Коментар</label>
             <textarea class="textarea-comment" name="comment" id="comment"  rows="12" placeholder="Введіть текст"></textarea>
             </div>
             
             <div class="policy">
-            <input type="checkbox" class="check"  name="policy" value="policy" id="policy">
+            
+            <label for="policy" class="policy-label">
+              <input type="checkbox" class="check"  name="policy" value="policy" id="policy">
             <span class="hhhhh"></span>
-            <label for="policy" class="policy-label">Погоджуюся з розсилкою та приймаю <span class="policy-text">Умови договору</span></label>
+            Погоджуюся з розсилкою та приймаю <span class="policy-text">Умови договору</span>
+            <input type="checkbox" class="check"  name="policy" value="policy" id="policy">
+            </label>
             </div>
 
             <div class="footer-submit">
