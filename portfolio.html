@@ -18,6 +18,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./CSS/main.min.css">
     <link rel="stylesheet" href="./CSS/styles.css" />
   </head>
   <body>
@@ -39,7 +40,7 @@
             <svg class="mail-svg"><use  href="./images/icons.svg#icon-envelope-hover" ></use></svg>info@devstudio.com</a>
           </li>
           <li><a class="contact-link link" href="tel:+380961111111">
-            <svg class="phone-svg"><use href="./images/icons.svg#icon-Vector"></use></svg>+38 096 111 11 11</a></li>
+            <svg class="phone-svg" height="16px" width="10px"><use href="./images/icons.svg#icon-Vector"></use></svg>+38 096 111 11 11</a></li>
         </ul>
       </div>
     </header>
@@ -198,7 +199,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+<footer class="footer">
 <div class="container footer-container">
 <div>
         <a href="“#”" class="footer-logo link"><span class="footer-web">Web</span><span class="footer-studio">Studio</span></a
@@ -239,13 +240,14 @@
 
 </div>
 
-<div class="footer-mail-div">
+<form class="footer-mail-div">
 <label for="soc-mail">Підпишіться на розсилку</label>
-<input type="email" class="footer-mail-input" name="soc-mail" id="soc-mail" placeholder="E-mail
+<div class="mail-form">
+  <input type="email" class="footer-mail-input" name="soc-mail" id="soc-mail" placeholder="E-mail
 ">
 <button type="button" class="footer-mail-button">Підписатися <svg class="footer-mail-svg" width="24px" height="24px"><use href="./images/icons.svg#icon-icon-send"></use></svg>
-</button>
-</div>
+</button></div>
+</form>
 
 
 
